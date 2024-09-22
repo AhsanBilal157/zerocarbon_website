@@ -1,0 +1,46 @@
+.otr-header {
+    margin: 150px 0px 20px 0px;
+}
+
+.otr-header .container .inner-header {
+    padding: 80px 0px;
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 29px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 20px 7px 22px rgba(0, 0, 0, 0.1);
+}
+
+.otr-header .container .inner-header::before {
+    content: "";
+    width: 577px;
+    position: absolute;
+    z-index: 1;
+    height: 577px;
+    background: #2eff00;
+    top: 0;
+    left: -51px;
+    border-radius: 100%;
+    filter: blur(150px);
+    opacity: 0.5;
+}
+.heading-H21{
+    font-family: 'Poppins-Regular';
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+}
+@media only screen and (max-width: 992px) {
+    .heading-H21 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .heading-H21 {
+        font-size: 36px;
+        line-height: 21px;
+    }
+}

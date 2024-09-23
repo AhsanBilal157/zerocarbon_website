@@ -11,6 +11,10 @@
     position: relative;
     overflow: hidden;
     box-shadow: 20px 7px 22px rgba(0, 0, 0, 0.1);
+    @media only screen and (max-width: 420px) {
+        padding: 40px 0px;
+    }
+    
 }
 
 .otr-header .container .inner-header::before {
@@ -28,19 +32,27 @@
 }
 .heading-H21{
     font-family: 'Poppins-Regular';
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 70px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    @media only screen and (max-width: 420px) {
+        font-family: 'Poppins-Regular';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    }
+
+   
 }
 @media only screen and (max-width: 992px) {
-    .heading-H21 {
+    /* .heading-H21 {
         font-size: 50px;
         line-height: 50px;
-    }
+    } */
 }
 @media only screen and (max-width: 575px) {
-    .heading-H21 {
+    /* .heading-H21 {
         font-size: 36px;
         line-height: 21px;
-    }
+    } */
 }

@@ -32,9 +32,9 @@
 }
 
 .our-involvment .container-fluid .row-custom-hContent .col-content-otr .col-content-inr .heading-H2 {
-    font-size: 50px;
-    line-height: 70px;
-    font-weight: 700;
+    font-size: 33px;
+    line-height: 30px;
+    font-weight: 600;
     align-items: center;
     color: black;
     font-family: 'Poppins-Regular';
@@ -43,21 +43,21 @@
 .our-involvment .container-fluid .row-custom-hContent .col-content-otr .col-content-inr .heading-M {
     color: black;
     font-family: 'Poppins-Regular';
-    font-size: 30px;
-    line-height: 40px;
-    font-weight: 500;
-    padding: 35px 0px 0px 0px !important;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    padding: 16px 0px 0px 0px !important;
 }
 
 .our-involvment .container-fluid .row-custom-hContent .col-img-otr .col-img-inr{
    display: flex;
-   justify-content: center;
+   justify-content: flex-end;
    align-items: center;
 }
 
 .our-involvment .container-fluid .row-custom-hContent .col-img-otr .col-img-inr .img-sec1{
     height: 500px;
-    width: 715px;
+    width: 90%;
     border-radius: 10px;
     object-fit: cover;
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import "./HomeContent.css";
-function City(props) {
+import "./HomeContent2.css";
+const HomeContent2 = (props) => {
   return (
     <div>
       <section className="our-involvment " id="">
@@ -18,7 +18,7 @@ function City(props) {
               </div>
             </div>
             <div className=" col-xxl-6 col-lg-12 col-md-12 col-sm-12  col-img-otr">
-              <div className="col-img-inr">
+              <div className="col-img-inr home2">
                 <img
                   src={props.image}
                   className="img-sec1"
@@ -34,6 +34,6 @@ function City(props) {
       </section>
     </div>
   );
-}
+};
 
-export default City;
+export default HomeContent2;

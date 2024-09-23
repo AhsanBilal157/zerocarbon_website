@@ -585,17 +585,17 @@ footer .footer-copyright ul li+li {
 }
  .ul-social{
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 16px;
  }
 
   .icon-social {
-    height: 35px;
+    width: 24px;
+    height: 24px;
   }
   .a-social{
-    height: 60px;
-      width: 60px;
+    height: 40px;
+    width: 40px;
       display: flex;
       justify-content: center;
       align-items: center;

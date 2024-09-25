@@ -16,32 +16,32 @@ function About() {
                 data-aos-duration="1000"
                 data-aos-delay="50"
               >
+                <p className="heading3-head">Our Values</p>
                 <ul
-                  className="heading3-ul"
+                  className=" heading3-ul-about"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   data-aos-delay="50"
                 >
-                  <p className="heading3-head">Our Values</p>
-                  <li className="heading3-li">
+                  <li className="heading3-li-about">
+                    <span className="heading3-p-span">Sustainability:</span>
                     <p className="heading3-p ">
-                      <span className="heading3-p-span">Sustainability:</span>
                       We believe that farming should be in harmony with nature,
                       which is why we champion regenerative agriculture
                       practices that restore the land while feeding communities.
                     </p>
                   </li>
-                  <li className="heading3-li">
+                  <li className="heading3-li-about">
+                    <span className="heading3-p-span">Empowerment: </span>
                     <p className="heading3-p ">
-                      <span className="heading3-p-span">Empowerment: </span>
                       Women are the backbone of agriculture, and we’re dedicated
                       to equipping them with the skills, resources, and
                       opportunities they deserve.
                     </p>
                   </li>
-                  <li className="heading3-li">
+                  <li className="heading3-li-about">
+                    <span className="heading3-p-span">Innovation: </span>
                     <p className="heading3-p ">
-                      <span className="heading3-p-span">Innovation: </span>
                       From organic farming to digital tools, we embrace
                       technology to improve farming efficiency, enhance
                       agricultural patterns, and create a sustainable future.

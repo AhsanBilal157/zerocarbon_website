@@ -1,0 +1,9 @@
+.col-blog-detail-otr{
+    margin: 100px auto 0px auto ;
+    padding: 0px 12px !important;
+}
+.ul-ref-blog-detail{
+    @media (max-width: 992px) {
+       gap: 12px !important;
+    }
+}

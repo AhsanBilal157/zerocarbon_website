@@ -29,7 +29,7 @@ footer {
 @media (max-width: 991px) {
   footer {
     padding-top: 40px;
-   
+    margin-top: 12px !important;
   }
 }
 

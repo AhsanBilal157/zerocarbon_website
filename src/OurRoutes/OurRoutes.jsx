@@ -9,6 +9,7 @@ import InitiativesVeiw from "../View/InitiativesVeiw/InitiativesVeiw";
 import BlogView from "../View/BlogView/BlogView";
 import NewsVeiw from "../View/NewsView/NewsVeiw";
 import BlogDetail1View from "../View/BlogDetail1View/BlogDetail1View";
+import NewsDetail1View from "../View/NewsDetail1View/NewsDetail1View";
 
 const OurRoutes = () => {
   return (
@@ -23,6 +24,7 @@ const OurRoutes = () => {
         <Route path="/Blog" element={<BlogView />} />
         <Route path="/Blogdetail" element={<BlogDetail1View />} />
         <Route path="/News" element={<NewsVeiw />} />
+        <Route path="/NewsDetail" element={<NewsDetail1View />} />
       </Routes>
     </>
   );

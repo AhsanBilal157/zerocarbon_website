@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../../Component/HeroSection/HeroSection";
-import FAQSection from "../../Component/FAQSection/FAQSection";
+// import FAQSection from "../../Component/FAQSection/FAQSection";
 import FeatureSection from "../../Component/FeatureSection/FeatureSection";
 import HomeContent from "../../Component/HomeContent/HomeContent";
 import WrapperSection from "../../Component/WrapperSection/WrapperSection";
@@ -35,7 +35,7 @@ const DashboardView = () => {
           detail="Through our workshops, training programs, and organic product initiatives, we have empowered countless women farmers to adopt regenerative agriculture. By helping farmers improve their practices and livelihoods, we are fostering sustainable growth at the grassroots level"
         />
         <FeatureSection />
-        <FAQSection />
+        {/* <FAQSection /> */}
       </WrapperSection>
     </div>
   );

@@ -1,5 +1,5 @@
 .blog-details {
-    margin: 112px 0 128px 0;
+    margin: 30px 0 128px 0;
 }
 
 .blog-details .container-fluid .row-custom {
@@ -84,15 +84,17 @@
 
 .blog-cards-row {
     display: flex;
+    justify-content: center; /* Center all cards horizontally */
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 20px; /* Add some space between cards */
     @media (max-width: 992px) {
         /* flex-direction: column; */
     }
   }
   
+  
   .card {
-    width: calc(33.3% - 20px);
+    width: calc(25.3% - 20px);
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
@@ -106,6 +108,9 @@
     @media (max-width: 767px) {
         width: 100%;
     }
+  }
+  .card:hover {
+    transform: translateY(-10px); /* Slight lift effect */
   }
   
   .card-image img {

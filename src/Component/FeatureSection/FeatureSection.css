@@ -15,7 +15,7 @@
 .feature-section {
   position: relative;
   z-index: 1;
-  padding-bottom: calc(80px + 150 * (100vw - 320px) / 1600);
+  padding-bottom: calc(50px + 50 * (10vw - 320px) / 600);
   background: white;
 }
 
@@ -73,8 +73,14 @@
   padding: 34px;
   border-radius: 4px;
   position: relative;
-  height: 100%;
-  border: 1px solid #dae7d9;
+  min-height: 200px;
+  /* border: 1px solid #dae7d9; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center;     /* Center content horizontally */
+  text-align: center;  
 
 }
 
@@ -103,13 +109,30 @@
 }
 
 .feature-section .feature-box .feature-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 20px;
+  /* -webkit-box-align: center;
+  -ms-flex-align: center; */
+  justify-content: center;
+  /* align-items: center; */
+  /* margin-bottom: 20px; */
+  
+}
+.divider {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0; /* Adjust for spacing */
+}
+.feature-section .feature-box .features-title {
+  color: #0c0f0b !important;
+  /* font-size: 18px !important;
+  font-family: 'Outfit'; */
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;    /* Space between title and paragraph */
+
 }
 
 .feature-section .feature-box .feature-top p {
@@ -144,20 +167,24 @@
 }
 
 .feature-section .feature-box .feature-top .feature-icon {
-  width: calc(40px + 10 * (100vw - 320px) / 1600);
-  height: calc(40px + 10 * (100vw - 320px) / 1600);
-  position: relative;
+  /* width: calc(350px + 10 * (100vw - 320px) / 600); */
+  height: calc(250px + 10 * (100vw - 320px) / 600);
+  /* height: 70%; */
+  /* width: 70%; */
+  /* position: relative;  */
+  /* font-size: 64px; */
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .feature-section .feature-box .feature-top .feature-icon img {
-  position: absolute;
+   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 35%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 40%;
+  
 }
 
 .feature-section .feature-box .feature-top .feature-icon .outline-icon {
@@ -182,6 +209,16 @@
   font-size: 18px;
   line-height: 23px;
   list-style: disc !important;
+}
+.paragraph{
+  color: #656565;
+  margin-bottom: 12px;
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  list-style: disc !important;
+  margin-bottom: 200px;
 }
 .feature-section .feature-box .ul-h4 {
   display: flex;
@@ -384,10 +421,3 @@
   border-radius: 20px;
 }
 
-.features-title {
-  color: #0c0f0b !important;
-  font-size: 18px !important;
-  font-family: 'Outfit';
-
-
-}

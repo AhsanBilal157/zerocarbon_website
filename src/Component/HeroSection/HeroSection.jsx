@@ -6,6 +6,10 @@ const HeroSection = () => {
   return (
     <>
       <section className="hero-section">
+        <div className="image-container">
+          <div className="dark-overlay"></div>
+          {/* Background image with animation */}
+        </div>
         <div className="container">
           <div className="wrapper">
             <h2
@@ -16,7 +20,7 @@ const HeroSection = () => {
             >
               <Typewriter
                 words={[
-                  "Cultivating Change, Empowering Women, and Growing a Greener Tomorrow",
+                  "Shaping the Future of Sustainable Systems and Ecosystem through climate-smart and responsible interventions",
                 ]}
                 loop={true}
                 cursor
@@ -32,9 +36,7 @@ const HeroSection = () => {
               data-aos-duration="1100"
               data-aos-delay="100"
             >
-              Transforming agriculture through organic practices, empowering
-              women farmers, and digitizing sustainable farming for a better
-              future.
+              Delivering eco-conscious solutions that promote growth and environmental responsibility across the UK and EU.
             </p>
           </div>
         </div>

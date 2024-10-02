@@ -1,0 +1,26 @@
+.title-basic{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+.features-heading {
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #0c0f0b;
+  
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0px 48px 0px !important;
+  
+    @media (max-width: 750px) {
+      font-size: 30px;
+      padding: 48px 0px 48px 0px;
+    }
+  
+    @media (max-width: 550px) {
+      line-height: 40px;
+    }
+  }

@@ -17,7 +17,7 @@ function Blog() {
     {
       image:
         "https://media.istockphoto.com/id/1805849861/photo/harvesting-in-agriculture-crop-field.webp?a=1&b=1&s=612x612&w=0&k=20&c=hlM73BNUq9hnlf354Lk2mqZc8OU5i9c9iIuQx1CJAKk=",
-      title: "Women Empowerment in Agriculture",
+      title: "Women Empowerment in Agriculture in Pakistan",
       author: "Dr. Sarah Ahmed",
       description:
         "Empowering women in agriculture leads to better livelihoods, sustainable farming, and strong rural economies.",
@@ -26,7 +26,7 @@ function Blog() {
     {
       image:
         "https://media.istockphoto.com/id/511976070/photo/green-sprouts.webp?a=1&b=1&s=612x612&w=0&k=20&c=_Q4M2hOsyv_5g1bXY5gFczSXgx0skijUhAULDSi5KBk=",
-      title: "Digital Tools in Modern Farming",
+      title: "Digital Tools in Modern Farming in Pakistan",
       author: "John Doe",
       description:
         "Integrating digital tools such as drones and AI can revolutionize the way we approach farming and food production.",

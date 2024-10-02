@@ -14,7 +14,7 @@ function City(props) {
                 data-aos-delay="150"
               >
                 <h2 className="heading-H2">{props.heading}</h2>
-                <p className="heading-M">{props.detail}</p>
+                <p className="heading-M"><b>{props.detail}</b></p>
               </div>
             </div>
             <div className=" col-xxl-6 col-lg-12 col-md-12 col-sm-12  col-img-otr">

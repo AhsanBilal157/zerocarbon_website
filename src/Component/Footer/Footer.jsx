@@ -1,7 +1,7 @@
 import "./Footer.css";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
-import footerLogo from "../../Images/footer.png";
+import footerLogo from "../../Images/Group 21.png";
 
 const Footer = () => {
   return (

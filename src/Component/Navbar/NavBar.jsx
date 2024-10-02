@@ -3,7 +3,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import "./Navbar.css";
 import closeIcon from "../../Images/close-line.svg";
 import { Link } from "react-router-dom";
-import logo from "../../Images/footer.png";
+import logo from "../../Images/Group 21.png";
 
 const NavBar = () => {
   const [show, setShow] = useState(false);

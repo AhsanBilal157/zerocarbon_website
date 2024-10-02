@@ -16,7 +16,7 @@ const OurRoutes = () => {
     <>
       <Routes>
         <Route path="/" element={<HomeView />} />
-        <Route path="/Faq" element={<FaqView />} />
+        {/* <Route path="/Faq" element={<FaqView />} />
         <Route path="/contact" element={<ContactView />} />
         <Route path="/ServiceView" element={<ServiceView />} />
         <Route path="/About" element={<AboutView />} />
@@ -24,7 +24,7 @@ const OurRoutes = () => {
         <Route path="/Blog" element={<BlogView />} />
         <Route path="/Blogdetail" element={<BlogDetail1View />} />
         <Route path="/News" element={<NewsVeiw />} />
-        <Route path="/NewsDetail" element={<NewsDetail1View />} />
+        <Route path="/NewsDetail" element={<NewsDetail1View />} /> */}
       </Routes>
     </>
   );

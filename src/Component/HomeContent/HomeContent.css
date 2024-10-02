@@ -1,17 +1,22 @@
 .our-involvment {
-    padding-top: 128px;
+    padding-top: 50px;
 }
 .container-fluid{
     padding: 0px 40px !important;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .our-involvment .container-fluid .row-custom-hContent {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px 0px;
+    
 }
 .our-involvment .container-fluid .reverse {
     flex-direction: row-reverse;

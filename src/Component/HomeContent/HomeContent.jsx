@@ -15,6 +15,11 @@ function City(props) {
               >
                 <h2 className="heading-H2">{props.heading}</h2>
                 <p className="heading-M"><b>{props.detail}</b></p>
+                <ul>
+                  <li>Utilizing the latest advancements in agricultural tech.</li>
+                  <li>A team of seasoned professionals dedicated to your success.</li>
+                  <li>Solutions tailored for diverse agricultural landscapes.</li>
+                </ul>
               </div>
             </div>
             <div className=" col-xxl-6 col-lg-12 col-md-12 col-sm-12  col-img-otr">

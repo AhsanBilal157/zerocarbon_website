@@ -59,6 +59,7 @@ const FeatureSection = (() => {
             </div>
 
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+            <a href="https://nutty-catriona-agfow-0f25f041.koyeb.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="feature-box">
                 <div className="feature-top">
                   <div className="feature-icon">
@@ -69,10 +70,11 @@ const FeatureSection = (() => {
                 </div>
                 <hr className="divider" />
                 <ul className="ul-h4">
-                <p className="features-title">Climate-Friendly Roadmap</p>
-                  <p className="h4">Creating tailored strategies to help businesses achieve carbon neutrality.</p>
+                <p className="features-title">Climate Policies Chatbot</p>
+                  <p className="h4">Explore data and insights about climate change with our interactive chatbot. Ask questions, get answers, and stay informed.</p>
                 </ul>
               </div>
+              </a>
             </div>
 
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
@@ -86,8 +88,8 @@ const FeatureSection = (() => {
                 </div>
                 <hr className="divider" />
                 <ul className="ul-h4">
-                <p className="features-title">AI-Driven IoT Systems</p>
-                  <p className="h4">Leveraging advanced technology to monitor and optimize environmental impact.</p>
+                <p className="features-title">Textile Mills Chatbot</p>
+                  <p className="h4">We're working on a chatbot to assist textile mills with industry-specific data insights. Stay tuned for updates!</p>
                 </ul>
               </div>
             </div>
